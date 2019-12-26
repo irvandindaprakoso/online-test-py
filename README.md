@@ -1,7 +1,7 @@
 # online-test-py
 
 ------------------------------------------------------------------------------
-### cofee promo
+### Cofee Promo
 ------------------------------------------------------------------------------
 
 in order to celebrate birthday
@@ -34,3 +34,31 @@ example:
 | L | |
 | A | |
 | L | |
+
+------------------------------------------------------------------------------
+### Ice Cream Meter
+------------------------------------------------------------------------------
+
+Our squad want to implement an "ice cream meter" for everyone who late on each warking day. We will count the total late after every 2 weeks (10 working days) and these people need to pay the ice cream meter penalty so we can gather it and buy ice cream for the whole team :D.
+
+the late fee will be incremental and the incremental base fee will be based on team agreement, bellow is the example for increment base fee = Rp.5.000:
+
+| Total late | incremental fee | ice cream meter |
+| :---: | :---: | :---: |
+| 1 | 5.000 | 5.000 |
+| 2 | 5.000 + 10.000 | 15.000 |
+| 1 | 5.000 + 10.000 + 15.000 | 30.000 |
+
+u are being asked to create a helper to calculate the total of ice cream meter penalty one person needs to pay every 2 weeks. the input will be the total late (in integer) with maximum 10 times late and incremental fee with minimum fee of 1000 and maximum incremental fee of 10000 separated by a space. the output will be the total ice cream meter penalty to pay 
+
+example:
+
+input : 1 3500
+output: 3500
+
+input : 3 7000
+output: 42000
+
+input : 11 5000
+output: Invalid input
+
