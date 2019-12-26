@@ -21,15 +21,9 @@ Note:
 -promo only applies to latte, cappuccino and Americano coffee drinks
 
 example:
+
 | input | output |
 | :---: | :---: |
 | 1 | Rp. 20.000 |
-| L |            |
-| 3 | Rp. 28.000 |
-| L |            |
-| C |            |
-| W |            |
-| 3 | Rp. 43.000 |
-| L |            |
-| A |            |
-| L |            |
+| L | |
+
