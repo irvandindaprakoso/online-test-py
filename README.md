@@ -62,3 +62,27 @@ output: 42000
 input : 11 5000
 output: Invalid input
 
+------------------------------------------------------------------------------
+### Net Caffe
+------------------------------------------------------------------------------
+
+net caffe want to open an internet cafe. customer will pay the service hourly, and the more hour the customer spends, the price will get cheaper. Bellow the price table.
+
+| Time (hour) | Price |
+| :---: | :---: |
+| 1 | Rp. 4.000 |
+| 5 | Rp. 18.000 |
+
+U're being asked to create a helper to calculate the price for using a computer in the internet cafe. the input will be in hours (int) and the output in rupiah (int).
+
+example:
+
+input: 1
+
+output: 4000
+
+input: 7
+
+output: 26000 (18000 + 8000)
+
+
