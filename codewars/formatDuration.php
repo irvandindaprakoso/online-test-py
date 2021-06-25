@@ -1,5 +1,4 @@
 public static function format_duration($seconds) {
-        // your code here
 
         $results = [];
 
